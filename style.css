@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header section */
+
+.header {
+    background-image: url("./images/banner/banner1.png");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    /* justify-content: left; Bonus point er jonno left disilam kintu kon side e nite bolse bujhinai*/
+    align-items: center;
+    padding: 0 10vw 0 0;
+}
+
+.header-text {
+    margin: 0 0 0 30px;
+    text-align: right;
+}
+
+.header-h1 {
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+
+p,
+li {
+    font-size: 16px;
+    color: gray;
+}
+
+.header-button {
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+/* second container */
+
+.second-container {
+    display: flex;
+    align-items: center;
+}
+
+.model-img {
+    padding: 0 50px;
+}
+
+.second-container-h1 {
+    padding: 10px 0;
+}
+
+.second-container-list {
+    text-decoration: none;
+    padding: 0 0 0 50px;
+}
+
+
+/* plans container */
+
+.plans-h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans-div {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.callnow-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.callnow-section-image {
+    background-image: url("./images/watch.png");
+    height: 300px;
+    width: 80%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.callnow-section-text {
+    color: white;
+    padding: 0 0 0 5vw;
+}
+
+.callnow-button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    color: orangered;
+}
+
+
+/* Footer section */
+
+.footer {
+    background-color: black;
+    display: flex;
+}
+
+.left-footer {
+    padding: 50px;
+}
+
+.footer-h1 {
+    color: white;
+}
+
+.footer-p {
+    padding: 10px 0px;
+}
+
+.socials {
+    display: flex;
+}
+
+.social {
+    padding: 5px;
+}
+
+.right-footer {
+    padding: 50px;
+}
+
+h3 {
+    color: white;
+    padding: 10px 0;
+}
+
+.footer-button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    color: orangered;
+}
